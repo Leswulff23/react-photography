@@ -47,7 +47,7 @@ const Gallery = () => {
               </div>      
             </div>
             <div class="mm gal-link">
-                <a href="#"><h4>More Gallery</h4></a>
+                <a><h4>More Gallery</h4></a>
             </div>
         </div>
     </section>

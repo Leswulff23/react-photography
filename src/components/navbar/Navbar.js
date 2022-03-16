@@ -31,10 +31,10 @@ const Navbar = () => {
                 </div>
                 <menu className="menu">
                     <ul className= "menu-links" id={ showMenu ? "nav-menu-link-show" : "nav-menu-link-hide" }>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Latest</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a >Home</a></li>
+                        <li><a >Gallery</a></li>
+                        <li><a >Latest</a></li>
+                        <li><a >Contact</a></li>
                     </ul>
                 </menu>    
             </div>
