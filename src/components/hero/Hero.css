@@ -1,0 +1,57 @@
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -999;
+    opacity: 0.39;
+}
+
+.wrapper{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-header h4{
+    font-weight:250;
+    font-size:1.8rem;
+    letter-spacing: 0.765em;
+}
+
+.hero-header span{
+    color:#D40610;
+}
+
+.hero-title{
+    font-weight:bold;
+    font-size: 2rem;
+}
+
+.hero-desc{
+    margin-top: 1.5em;
+    width: 50%;
+}
+
+.hero-desc p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #878080;
+}
+
+
+ul.socials{
+    list-style-type:none;
+}
+
+
+.social-line{
+    border: 1px solid white;
+    width: 0.1em;
+    margin-left: 10px;
+    height:120px;
+}
