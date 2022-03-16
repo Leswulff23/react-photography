@@ -11,6 +11,8 @@ const Navbar = () => {
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
+
+    let path = "#";
     
     return (
         <nav className="container navbar">
@@ -31,10 +33,10 @@ const Navbar = () => {
                 </div>
                 <menu className="menu">
                     <ul className= "menu-links" id={ showMenu ? "nav-menu-link-show" : "nav-menu-link-hide" }>
-                        <li><a >Home</a></li>
-                        <li><a >Gallery</a></li>
-                        <li><a >Latest</a></li>
-                        <li><a >Contact</a></li>
+                        <li><a href={path}>Home</a></li>
+                        <li><a href={path}>Gallery</a></li>
+                        <li><a href={path}>Latest</a></li>
+                        <li><a href={path}>Contact</a></li>
                     </ul>
                 </menu>    
             </div>

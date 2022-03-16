@@ -4,6 +4,8 @@ import { Pic1, Pic2, Pic3, Pic4 } from '../../assets/images';
 
 const Gallery = () => {
 
+      let path = "#";
+
   return (
     <section className="pd gallery-section">
       <div className=" container gallery-wrapper">
@@ -47,7 +49,7 @@ const Gallery = () => {
               </div>      
             </div>
             <div class="mm gal-link">
-                <a><h4>More Gallery</h4></a>
+                <a href={path}><h4>More Gallery</h4></a>
             </div>
         </div>
     </section>
