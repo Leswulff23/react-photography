@@ -1,15 +1,21 @@
 nav{
     top: 0;
     left: 0;
-    position: absolute;
     width: 100%;
     z-index: 999;
+    position: fixed;
+}
+
+.navbar.active{
+    background: #222222;
+    transition: all 0.2s 
 }
 
 .navbar{
     display: flex;
     justify-content:space-between;
     align-items:center;
+    background: transparent;
 }
 
 .navbar-left{
@@ -41,11 +47,6 @@ nav{
     font-size: 0.8rem;
 }
 
-.navbar-right{
-    cursor: pointer;
-    
-}
-
 .menu-links li{
     list-style: none;
     margin-top: 70px;
@@ -61,6 +62,11 @@ nav{
 .menu-links li a:hover{
     color: red;
     transition: all 0.3s ease-in-out;
+}
+
+.menu,
+.close{
+    cursor: pointer;
 }
 
 #nav-menu-link-show {

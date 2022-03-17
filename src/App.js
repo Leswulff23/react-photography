@@ -9,8 +9,8 @@ function App() {
       <Navbar />
       <Hero />
       <Gallery />
-      <Latest />
-      <Contact />
+      {/* <Latest />
+      <Contact /> */}
     </Router>
   );
 }

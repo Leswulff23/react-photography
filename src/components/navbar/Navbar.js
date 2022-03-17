@@ -7,15 +7,26 @@ import { FaTimes } from 'react-icons/fa';
 const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
+    const [navbarSticky, setNavbar] = useState(false);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
 
+    const changeBackground = () => {
+        if(window.scrollY >= 80) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
+
     let path = "#";
     
     return (
-        <nav className="container navbar">
+        <nav className={ navbarSticky ? "container navbar active" : "container navbar"}>
             <div className= "navbar-left">
                 <div className="logo">
                     <img src={Logo} alt="logo" />
@@ -25,9 +36,9 @@ const Navbar = () => {
                     <h4><span>PHOTOGRAPHY</span></h4>
                 </div>
             </div>
-            <div className="navbar-right" onClick={toggleMenu} >
+            <div className="navbar-right">
                 {
-                    showMenu ?  <FaTimes className="close" size={30} color="#000"/> :  <CgMenuLeft size={33}  />
+                    showMenu ?  <FaTimes onClick={toggleMenu}  className="close" size={30} color="#000"/> :  <CgMenuLeft className="menu" size={33} onClick={toggleMenu}  />
                 }
                 <div id={showMenu ? "circle-show" : "circle-hide"}>                    
                 </div>
