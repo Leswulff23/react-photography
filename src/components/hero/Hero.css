@@ -7,7 +7,7 @@ video{
     -o-object-fit: cover;
     object-fit: cover;
     z-index: -999;
-    opacity: 0.39;
+    opacity: 0.5;
 }
 
 .wrapper{
@@ -18,12 +18,12 @@ video{
 
 .hero-header h4{
     font-weight:250;
-    font-size:1.8rem;
+    font-size:1.2rem;
     letter-spacing: 0.765em;
 }
 
 .hero-header span{
-    color:#D40610;
+    color:#CE1924;
 }
 
 .hero-title{
@@ -32,8 +32,7 @@ video{
 }
 
 .hero-desc{
-    margin-top: 1.5em;
-    width: 50%;
+    width: 90%;
 }
 
 .hero-desc p{
@@ -43,6 +42,10 @@ video{
     color: #878080;
 }
 
+.social-wrapper{
+    display: none;
+    transition: all 0.9s ease-out;
+}
 
 ul.socials{
     list-style-type:none;
@@ -54,4 +57,32 @@ ul.socials{
     width: 0.1em;
     margin-left: 10px;
     height:120px;
+}
+
+
+@media screen and (min-width: 960px){
+    .wrapper{
+        padding-top: 40px;
+    }
+
+    .pd{
+        padding: 60px;
+    }
+
+    .hero-header h4{
+        font-size:2rem;
+    }
+
+    .hero-title{
+        font-weight:bold;
+        font-size: 2.5rem;
+    }
+
+    .social-wrapper{
+        display: block;
+    }
+
+    .hero-desc p{
+        width: 60%;
+    }
 }

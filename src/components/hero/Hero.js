@@ -13,10 +13,10 @@ const Hero = () => {
         </video>
         <div className="container wrapper">
           <div className="pd">
-            <div className="hero-header">
+            <div className="mm hero-header">
             <h4>JAMES <span>SPADER</span></h4>
             </div>
-            <div className=" sm hero-title">
+            <div className="sm hero-title">
                 <h4>Photographer</h4>
             </div>
             <div className="mm hero-desc">
@@ -27,7 +27,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="social-wrapper">
+          <div className="bm social-wrapper">
             <div className="social-line"></div>
               <ul className="socials">
                 <br></br>
@@ -41,7 +41,6 @@ const Hero = () => {
             <div className="social-line"></div>    
           </div>
         </div>
-        
       </div>
       
     </section>

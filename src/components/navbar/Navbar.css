@@ -7,7 +7,7 @@ nav{
 }
 
 .navbar.active{
-    background: #222222;
+    background: #660200;
     transition: all 0.2s 
 }
 
@@ -60,7 +60,7 @@ nav{
 }
 
 .menu-links li a:hover{
-    color: red;
+    color: #CE1924;
     transition: all 0.3s ease-in-out;
 }
 
@@ -82,12 +82,12 @@ nav{
 #circle-show{
     display: block;
     position :fixed;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
     background: radial-gradient(circle,#fff,#fff);
 	border-radius: 50%;
     transition: all .8s cubic-bezier(0.68,-0.55,0.265,1.55);
     width: 80%;
-    transform: translate(-60%,-50%);
+    transform: translate(-60%,-45%);
     height: 90rem;
     z-index: -9;
 }
@@ -95,10 +95,6 @@ nav{
 #circle-hide{
     display: none;
 }
-
-
-
-
 
 
 
@@ -118,4 +114,15 @@ nav{
         width: 50%;
         font-size: 0.9rem;
     }
+}
+
+@media screen and (min-width: 768px) {
+    /* #circle-show{
+        height: 70rem;
+    } */
+
+    #nav-menu-link-show{
+        
+    }
+    
 }

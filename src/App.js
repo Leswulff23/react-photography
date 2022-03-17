@@ -8,8 +8,8 @@ function App() {
     <Router>
       <Navbar />
       <Hero />
-      <Gallery />
-      {/* <Latest />
+      {/* <Gallery />
+      <Latest />
       <Contact /> */}
     </Router>
   );
