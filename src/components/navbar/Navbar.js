@@ -9,21 +9,21 @@ import { AiFillInstagram } from 'react-icons/ai';
 const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
-    const [navbarSticky, setNavbar] = useState(false);
+    // const [navbarSticky, setNavbar] = useState(false);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
 
-    const changeBackground = () => {
-        if(window.scrollY >= 80) {
-            setNavbar(true);
-        } else {
-            setNavbar(false);
-        }
-    }
+    // const changeBackground = () => {
+    //     if(window.scrollY >= 80) {
+    //         setNavbar(true);
+    //     } else {
+    //         setNavbar(false);
+    //     }
+    // }
 
-    window.addEventListener('scroll', changeBackground);
+    // window.addEventListener('scroll', changeBackground);
 
     let path = "#";
     
@@ -47,9 +47,9 @@ const Navbar = () => {
                         <li><a href={path}>Latest</a></li>
                         <li><a href={path}>Contact</a></li>
                         <div className="nav-socials">
-                            <li><a><FaTwitter size={40} color="#CE1924" /></a></li>
-                            <li><a><AiFillInstagram size={40} color="#CE1924"/></a></li>
-                            <li><a><FaPinterestP size={40} color="#CE1924" /></a></li>
+                            <li><a href={path}><FaTwitter size={40} color="#CE1924" /></a></li>
+                            <li><a href={path}><AiFillInstagram size={40} color="#CE1924"/></a></li>
+                            <li><a href={path}><FaPinterestP size={40} color="#CE1924" /></a></li>
                         </div>
                     </ul>
                 
