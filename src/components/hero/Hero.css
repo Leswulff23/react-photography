@@ -18,7 +18,7 @@ video{
 
 .hero-header h4{
     font-weight:250;
-    font-size:1.2rem;
+    font-size:1.5rem;
     letter-spacing: 0.765em;
 }
 
@@ -43,6 +43,8 @@ video{
 }
 
 .social-wrapper{
+    /* position: fixed;
+    left: 95%; */
     display: none;
     transition: all 0.9s ease-out;
 }

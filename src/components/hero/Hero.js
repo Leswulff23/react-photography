@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="hero-header">
               <h4>JAMES <span>SPADER</span></h4>
             </div>
-            <div className="hero-title">
+            <div className="sm hero-title">
                   <h4>Photographer</h4>
             </div>
             <div className="sm hero-desc">
