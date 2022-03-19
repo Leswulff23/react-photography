@@ -7,7 +7,7 @@ const Gallery = () => {
       let path = "#";
 
   return (
-    <section>
+    <section className="gallery-section">
       <div className="gallery-wrapper">
         <div className="gallery-element">
           <div className="gallery-title"> 
@@ -16,8 +16,8 @@ const Gallery = () => {
               <h4>“Photography is a <span>love</span> affair with life". - Burk Uzzle</h4>
             </div>
           </div>
-          <div className="gallery-grid">
-            <div className="grid-card">
+          <div className="gallery-grid mm">
+            <div>
               <div className="gallery-img">
                 <img src={Pic1} alt="" />
                 <div className="grid-desc">
@@ -26,7 +26,7 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
-            <div className="grid-card">
+            <div>
               <div className="gallery-img">
                 <img src={Pic2} alt="" />
                 <div className="grid-desc">
@@ -35,7 +35,7 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
-            <div className="grid-card">
+            <div>
               <div className="gallery-img">
                 <img src={Pic3} alt="" />
                 <div className="grid-desc">
@@ -44,7 +44,7 @@ const Gallery = () => {
                 </div>
               </div>
             </div>
-            <div className="grid-card">
+            <div>
               <div className="gallery-img">
                 <img src={Pic4} alt="" />
                 <div className="grid-desc">

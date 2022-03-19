@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Navbar, Hero, Gallery } from './components';
+import { Navbar, Hero, Gallery, Latest, Contact } from './components';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Hero />
-      <Gallery />
-      {/* <Latest />
-      <Contact /> */}
+      {/* <Gallery /> */}
+      <Latest />
+      {/* <Contact /> */}
     </Router>
   );
 }
