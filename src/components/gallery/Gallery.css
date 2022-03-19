@@ -80,13 +80,11 @@
 
     .gallery-wrapper{
         width: 92%;
-        border: 1px solid red;
     }
 
     .gallery-element{
         display: flex;
         margin: 10px 90px;
-        border: 1px solid red;
     }
 
     .gallery-grid{
@@ -95,7 +93,6 @@
 
     .gallery-header{
         width:140%;
-        border: 1px solid red;
     }
     
     .gallery-grid{
