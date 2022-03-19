@@ -10,10 +10,10 @@ video{
     opacity: 0.5;
 }
 
-.wrapper{
-    padding-top: 100px;
+.hero-wrapper{
+    margin: auto;
     display: flex;
-    align-items: center;
+    width: 85%;
 }
 
 .hero-header h4{
@@ -60,13 +60,14 @@ ul.socials{
 }
 
 
-@media screen and (min-width: 960px){
-    .wrapper{
-        padding-top: 40px;
+@media screen and (min-width: 960px) {
+    .hero-wrapper{
+        align-items: center;
+        width: 92%;
     }
 
-    .pd{
-        padding: 60px;
+    .hero-element{
+        margin: 0 90px;
     }
 
     .hero-header h4{
@@ -78,11 +79,12 @@ ul.socials{
         font-size: 2.5rem;
     }
 
+    .hero-desc p{
+        width: 60%;
+    }
+    
     .social-wrapper{
         display: block;
     }
 
-    .hero-desc p{
-        width: 60%;
-    }
 }

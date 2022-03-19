@@ -7,8 +7,8 @@ function App() {
   return (
     <Router>
       <Navbar />
-      {/* <Hero />
-      <Gallery />
+      <Hero />
+      {/* <Gallery />
       <Latest />
       <Contact /> */}
     </Router>

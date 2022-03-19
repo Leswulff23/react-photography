@@ -53,7 +53,7 @@ const Navbar = () => {
                         </div>
                     </ul>
                 
-                    <p class="back-text">MENU</p>
+                    <p className="back-text">MENU</p>
                 </nav>
                 )}
                 {

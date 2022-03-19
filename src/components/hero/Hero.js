@@ -7,19 +7,19 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 const Hero = () => {
   return (
-    <section class="hero">
+    <section>
       <div className="hero-bg">
         <video autoPlay loop muted src={Video} type="video/mp4">
         </video>
-        <div className="container wrapper">
-          <div className="pd">
-            <div className="mm hero-header">
-            <h4>JAMES <span>SPADER</span></h4>
+        <div className="hero-wrapper">
+          <div className="hero-element">
+            <div className="hero-header">
+              <h4>JAMES <span>SPADER</span></h4>
             </div>
-            <div className="sm hero-title">
-                <h4>Photographer</h4>
+            <div className="hero-title">
+                  <h4>Photographer</h4>
             </div>
-            <div className="mm hero-desc">
+            <div className="sm hero-desc">
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                   Recusandae quisquam neque, aut iusto natus ex quod minus similique? 
                   Dignissimos possimus, eligendi eos itaque fuga corrupti officia consequuntur quasi? 
@@ -27,7 +27,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div className="bm social-wrapper">
+          <div className="social-wrapper">
             <div className="social-line"></div>
               <ul className="socials">
                 <br></br>
