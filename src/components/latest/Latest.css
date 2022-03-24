@@ -67,40 +67,29 @@
     }
 
     .latest-img{
-        width: 70%;
+        width: 100%;
+    }
+
+    .latest-wrapper{
+        width: 92%;
+    }
+
+    .latest-element{
+        margin: 10px 90px;
+    }
+
+    .lt-works{
+        text-align: center;
+    }
+
+    
+    .lt-works h4{
+        font-size: 2rem;
+    }
+
+    .lt-col h4{
+        font-size: 3rem;
     }
 
 
 }
-
-
-/* .latest-section{
-    background: #fff;
-    color: #000;
-}
-
-.latest-title h4{
-    font-size:1.5rem;
-    font-weight:250;
-    letter-spacing: 0.535em;
-}
-
-.latest-header h4{
-    font-size:2.5rem;
-    font-weight: 700;
-}
-
-.latest-grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 3em;
-    padding: 3em 1em;
-
-}
-
-.latest-grid-img img{
-    width: 100%;
-    height: 500px;
-
-}
- */

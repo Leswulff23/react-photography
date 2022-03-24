@@ -8,35 +8,37 @@ const Latest = () => {
   return (
     <section className="latest-section">
       <div className="latest-wrapper">
-        <div class="latest-title">
-          <h4>WHAT'S NEW</h4>
-        </div>
-        <div class="latest-header">
-          <h4>Latest Works</h4>
-        </div>
-        <div className="latest-grid mm">
-          <div>
-            <div className="latest-img">
-              <img src={Pic5} alt="" />
+        <div className="latest-element">
+          <div class="latest-title">
+            <h4>WHAT'S NEW</h4>
+          </div>
+          <div class="latest-header">
+            <h4>Latest Works</h4>
+          </div>
+          <div className="latest-grid mm">
+            <div>
+              <div className="latest-img">
+                <img src={Pic5} alt="" />
+              </div>
+            </div>
+            <div>
+              <div className="latest-img">
+                <img src={Pic6} alt="" />
+              </div>
+            </div>
+            <div>
+              <div className="latest-img">
+                <img src={Pic7} alt="" />
+              </div>
             </div>
           </div>
-          <div>
-            <div className="latest-img">
-              <img src={Pic6} alt="" />
+          <div className="lt-works mm">
+            <h4>NEED A PHOTOGRAPHER?</h4>
+            <div className="lt-col">
+              <a href={path}><h4>Let's Collaborate</h4></a>
             </div>
-          </div>
-          <div>
-            <div className="latest-img">
-              <img src={Pic7} alt="" />
-            </div>
-          </div>
-        </div>
-        <div className="lt-works mm">
-          <h4>NEED A PHOTOGRAPHER?</h4>
-          <div className="lt-col">
-            <a href={path}><h4>Let's Collaborate</h4></a>
-          </div>
-        </div>      
+          </div> 
+        </div>     
       </div>
     </section>
   )
