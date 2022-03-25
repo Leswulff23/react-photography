@@ -14,7 +14,6 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     }
 
-
     let path = "#";
     
     return (
