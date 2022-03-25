@@ -1,17 +1,10 @@
- /* .container{
-     height: 20vh;
-     width: 100%;
-     position: relative;
-     background: #191513;
- } */
- 
- .navbar{
-     width: 90%;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     margin: auto;
- }
+.navbar{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
 
 .logo-container{
     display:flex;
@@ -37,7 +30,7 @@
 
 
 nav{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     background: #fff;
@@ -92,8 +85,9 @@ nav ul li a:hover::after{
 
 .close-icon,
 .menu-icon{
+    color: #CE1924;
     font-size: 2rem;
-    position: absolute;
+    position: fixed;
     right: 50px;
     top: 50px;
     cursor: pointer;
@@ -131,7 +125,7 @@ nav ul li a:hover::after{
 
 @media screen and (min-width: 960px) {
     .logo-container{
-        width: 30%;
+        width: 20%;
     }
 
 

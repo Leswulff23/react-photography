@@ -6,6 +6,7 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 
 const Hero = () => {
+   
   return (
     <section>
       <div className="hero-bg">
@@ -42,7 +43,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
     </section>
   )
 }

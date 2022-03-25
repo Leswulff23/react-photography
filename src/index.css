@@ -1,11 +1,21 @@
 @import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Remove scrollbar from Chrome, Opera, Safari*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*Remove scrollbar from Firefox*/
+html{
+    scrollbar-width: none;
+}
+
 
 body{
     font-family: "Gilroy", sans-serif;

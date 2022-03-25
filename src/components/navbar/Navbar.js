@@ -9,21 +9,11 @@ import { AiFillInstagram } from 'react-icons/ai';
 const Navbar = () => {
 
     const [showMenu, setShowMenu] = useState(false);
-    // const [navbarSticky, setNavbar] = useState(false);
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
     }
 
-    // const changeBackground = () => {
-    //     if(window.scrollY >= 80) {
-    //         setNavbar(true);
-    //     } else {
-    //         setNavbar(false);
-    //     }
-    // }
-
-    // window.addEventListener('scroll', changeBackground);
 
     let path = "#";
     

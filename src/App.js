@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Navbar, Hero, Gallery, Latest, Contact } from './components';
 
 function App() {
+
   return (
     <Router>
       <Navbar />
@@ -11,6 +12,7 @@ function App() {
       <Gallery />
       <Latest />
       <Contact />
+      
     </Router>
   );
 }
