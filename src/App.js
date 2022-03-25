@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Navbar, Hero, Gallery, Latest } from './components';
+import { Navbar, Hero, Gallery, Latest, Contact } from './components';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Hero />
       <Gallery />
       <Latest />
-      {/* <Contact /> */}
+      <Contact />
     </Router>
   );
 }
