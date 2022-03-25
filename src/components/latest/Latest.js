@@ -9,10 +9,10 @@ const Latest = () => {
     <section className="latest-section">
       <div className="latest-wrapper">
         <div className="latest-element">
-          <div class="latest-title">
+          <div class="latest-header">
             <h4>WHAT'S NEW</h4>
           </div>
-          <div class="latest-header">
+          <div class="latest-title">
             <h4>Latest Works</h4>
           </div>
           <div className="latest-grid mm">

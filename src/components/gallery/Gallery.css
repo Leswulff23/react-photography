@@ -7,22 +7,23 @@
     width: 85%;
 }
 
-.gallery-title h4{
-    font-size:1.5rem;
+.gallery-header h4{
     font-weight:250;
-    letter-spacing: 0.235em;
+    font-size:1.5rem;
+    letter-spacing: 0.765em;
 }
 
 .gallery-header span{
     color:#CE1924;
 }
 
-.gallery-header h4{
+.gallery-title h4{
     font-size:1rem;
     font-weight: 600;
     color: #878080;
     letter-spacing: 0;
 }
+
 
 .gallery-grid{
     display: grid;
@@ -90,14 +91,22 @@
         margin: 10px 90px;
     }
 
+    .gallery-header{
+        width: 20%;
+    }
+
+    .gallery-header h4{
+        font-size: 2rem;
+    }
+
+    .gallery-title h4{
+        font-size: 1rem;
+    }
+
     .gallery-grid{
         margin-left: 100px;
     }
 
-    .gallery-header{
-        width:140%;
-    }
-    
     .gallery-grid{
         grid-template-columns: auto auto;
         grid-gap: 1em;

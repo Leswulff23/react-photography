@@ -13,19 +13,19 @@ footer{
 }
 
 .footer-top{
-    font-size:2rem;
-    font-weight:700;
+    font-weight:bold;
+    font-size: 2rem;
 }
 
 .footer-info{
-    width: 50%;
-    font-size: 1rem;
+    width: 70%;
+    font-size: 1.2rem;
     line-height: 1.5em;
 }
 
 .footer-location,
 .footer-email{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .footer-input{
@@ -62,7 +62,6 @@ button{
     background: #D40610;
     color: #fff;
     font-family: inherit;
-    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 960px) {
@@ -85,20 +84,18 @@ button{
     }
 
     .footer-top{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .footer-info,
     .footer-input{
         font-size: 1.5rem;
-    }
-
-    .footer-info{
-        width: 70%;
-    }
-
-    .footer-input{
         width: 80%;
+    }
+
+    .footer-location,
+    .footer-email{
+        font-size: 1.5rem;
     }
 
 }

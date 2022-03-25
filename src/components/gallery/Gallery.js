@@ -10,9 +10,9 @@ const Gallery = () => {
     <section className="gallery-section">
       <div className="gallery-wrapper">
         <div className="gallery-element">
-          <div className="gallery-title"> 
+          <div className="gallery-header"> 
             <h4>GALLERY</h4>
-            <div className="sm gallery-header">
+            <div className="sm gallery-title">
               <h4>“Photography is a <span>love</span> affair with life". - Burk Uzzle</h4>
             </div>
           </div>
